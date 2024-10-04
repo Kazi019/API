@@ -12,17 +12,21 @@ body{
 }
 
 .container{
-    width: 0.2rem;
+    width: 0.3rem;
 }
 
 .btn{
-    background-color: red;
+    background-color: rgb(66, 164, 66);
     color: white;
     padding: 0.984rem 4.989rem;
     border-radius: 3.94rem;
     border: none;
     font-size: 17px;
     margin-right: 10px;
+    transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    background: rgb(41, 102, 41);
 }
 form input{
     display: block;
